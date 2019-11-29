@@ -20,7 +20,6 @@ body {
 }
 
 main {
-  border: 1px solid green;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: minmax(200px, 375px);
