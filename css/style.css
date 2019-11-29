@@ -20,10 +20,11 @@ body {
 }
 
 main {
+  border: 1px solid green;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: minmax(370px, 375px);
-      grid-template-columns: minmax(370px, 375px);
+  -ms-grid-columns: minmax(200px, 375px);
+      grid-template-columns: minmax(200px, 375px);
   -ms-grid-rows: (auto)[5];
       grid-template-rows: repeat(5, auto);
       grid-template-areas: "section-1" "section-2" "section-3" "section-4" "section-5";
