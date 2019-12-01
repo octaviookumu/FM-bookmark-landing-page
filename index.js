@@ -17,18 +17,27 @@ let toggleImgs = document.querySelector('.toggle-img');
 let toggleTextsFunc = () => {
 	toggleTexts.forEach((toggleText, i) => {
 		toggleTexts[0].addEventListener('click', () => {
+			toggleTexts[0].style.color = 'hsl(229, 31%, 21%)';
 			toggleTexts[0].lastElementChild.classList.add('hide-span');
+			toggleTexts[1].style.color = 'hsl(229, 8%, 60%)';
 			toggleTexts[1].lastElementChild.classList.remove('hide-span');
+			toggleTexts[2].style.color = 'hsl(229, 8%, 60%)';
 			toggleTexts[2].lastElementChild.classList.remove('hide-span');
 		});
 		toggleTexts[1].addEventListener('click', () => {
+			toggleTexts[0].style.color = 'hsl(229, 8%, 60%)';
 			toggleTexts[0].lastElementChild.classList.remove('hide-span');
+			toggleTexts[1].style.color = 'hsl(229, 31%, 21%)';
 			toggleTexts[1].lastElementChild.classList.add('hide-span');
+			toggleTexts[2].style.color = 'hsl(229, 8%, 60%)';
 			toggleTexts[2].lastElementChild.classList.remove('hide-span');
 		});
 		toggleTexts[2].addEventListener('click', () => {
+			toggleTexts[0].style.color = 'hsl(229, 8%, 60%)';
 			toggleTexts[0].lastElementChild.classList.remove('hide-span');
+			toggleTexts[1].style.color = 'hsl(229, 8%, 60%)';
 			toggleTexts[1].lastElementChild.classList.remove('hide-span');
+			toggleTexts[2].style.color = 'hsl(229, 31%, 21%)';
 			toggleTexts[2].lastElementChild.classList.add('hide-span');
 		});
 	});
