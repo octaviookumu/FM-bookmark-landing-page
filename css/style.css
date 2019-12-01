@@ -19,6 +19,16 @@ body {
   place-items: center;
 }
 
+body h1,
+body h2,
+body h3 {
+  color: #252b46;
+}
+
+body p {
+  color: #9194a1;
+}
+
 main {
   display: -ms-grid;
   display: grid;
@@ -309,6 +319,8 @@ main {
 
 .section-3 .section-3-imgs h2 {
   line-height: .5rem;
+  color: #252b46;
+  font-size: 1.5rem;
 }
 
 .section-3 .section-3-imgs p {
@@ -664,6 +676,7 @@ main {
 }
 
 .attribution {
+  color: #252b46;
   font-size: 1rem;
   text-align: center;
 }
@@ -788,6 +801,7 @@ main {
     margin: 1rem 20% 2rem 20%;
   }
   .section-2 .feat-toggle-msgs p {
+    border-top: none;
     width: 15rem;
     height: 3.5rem;
   }
